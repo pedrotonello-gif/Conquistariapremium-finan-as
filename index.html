@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONQUISTARIA - Controle Financeiro Pessoal</title>
+    <meta name="description" content="Aplicativo de controle financeiro pessoal com visual limpo em tom vinho. Gerencie entradas, saídas, saldo mensal, gráficos interativos e exportação para Excel formatada em português brasileiro com salvamento automático." />
+    <meta property="og:title" content="CONQUISTARIA - Controle Financeiro Pessoal" />
+    <meta property="og:description" content="Aplicativo de controle financeiro pessoal com visual limpo em tom vinho. Gerencie entradas, saídas, saldo mensal, gráficos interativos e exportação para Excel formatada em português brasileiro com salvamento automático." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              vinho: {
+                50: '#FFF5F7',
+                100: '#FCE6EA',
+                200: '#F5C2CB',
+                300: '#E892A2',
+                400: '#D55C73',
+                500: '#B82E49',
+                600: '#9B1D35',
+                700: '#7E1327',
+                800: '#640E1E',
+                900: '#4D0A16',
+                950: '#2E050C',
+              }
+            },
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body class="bg-[#FAF5F7] text-stone-800 antialiased min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

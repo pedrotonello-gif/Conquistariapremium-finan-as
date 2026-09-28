@@ -1,0 +1,34 @@
+:root {
+  --color-vinho-950: #380B12;
+  --color-vinho-900: #4D0E19;
+  --color-vinho-800: #681423;
+  --color-vinho-700: #831A2D;
+  --color-vinho-600: #9E2239;
+  --color-vinho-500: #B92B45;
+  --color-vinho-400: #D24963;
+  --color-vinho-200: #F3B5C1;
+  --color-vinho-100: #FCE6EA;
+  --color-vinho-50: #FFF5F7;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #FAF6F7;
+  color: #2D1A1E;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4a5b0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #831a2d;
+}
